@@ -60,8 +60,12 @@ a, a:hover, a:focus {
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
-    background: #6d7fcc;
+    padding: 10px;
+    background: #2cabe3;
+    text-align: center;
+}
+#sidebar .sidebar-header p {
+    color: #FFF;
 }
 
 #sidebar ul.components {
