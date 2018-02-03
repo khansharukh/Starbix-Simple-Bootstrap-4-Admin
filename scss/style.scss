@@ -2,6 +2,7 @@ $fontface: 'Segoe UI';
 $sidebar-color: #FFF;
 $theme-color: #2cabe3;
 $font-color: #54667a;
+$icon-font: 'themify';
 
 body {
     font-family: $fontface;
@@ -93,16 +94,19 @@ a[data-toggle="collapse"] {
     position: relative;
 }
 
+.nav-sidebar a::before {
+    font-family: $icon-font;
+}
+
 a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
-    content: '\e259';
+    content: '\e649';
     display: block;
     position: absolute;
     right: 20px;
-    font-family: 'Glyphicons Halflings';
     font-size: 0.6em;
 }
 a[aria-expanded="true"]::before {
-    content: '\e260';
+    content: '\e64b';
 }
 
 

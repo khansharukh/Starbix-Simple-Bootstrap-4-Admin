@@ -84,16 +84,18 @@ a, a:hover, a:focus {
 a[data-toggle="collapse"] {
   position: relative; }
 
+.nav-sidebar a::before {
+  font-family: "themify"; }
+
 a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
-  content: '\e259';
+  content: '\e649';
   display: block;
   position: absolute;
   right: 20px;
-  font-family: 'Glyphicons Halflings';
   font-size: 0.6em; }
 
 a[aria-expanded="true"]::before {
-  content: '\e260'; }
+  content: '\e64b'; }
 
 ul ul a {
   font-size: 0.9em !important;
