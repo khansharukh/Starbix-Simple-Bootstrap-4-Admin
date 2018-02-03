@@ -2,6 +2,8 @@ body {
   font-family: "Segoe UI";
   background: #fafafa;
   font-size: 14px; }
+  body .wrapper {
+    margin-top: 57px; }
 
 p {
   font-family: "Segoe UI";

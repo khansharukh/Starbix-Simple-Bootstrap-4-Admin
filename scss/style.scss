@@ -4,11 +4,16 @@ $theme-color: #2cabe3;
 $font-color: #54667a;
 $icon-font: 'themify';
 $font-size: 14px;
+$body-margin-top: 57px;
 
 body {
     font-family: $fontface;
     background: #fafafa;
     font-size: $font-size;
+
+    .wrapper {
+        margin-top: $body-margin-top;
+    }
 }
 
 p {
@@ -36,14 +41,12 @@ a:hover {
 /* ---------------------------------------------------
     NAVBAR STYLE
 ----------------------------------------------------- */
-
 .theme-color {
     background: $theme-color!important;
 }
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
-
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -149,7 +152,6 @@ a.article:hover {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-
 #content {
     padding: 20px;
     min-height: 100vh;
