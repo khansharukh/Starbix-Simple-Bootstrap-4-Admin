@@ -12,18 +12,31 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      <div class="navbar-header">
-          <div class="top-left-part">
-                              <!-- Logo -->
-                              <a class="logo" href="index.html">
-                                  <!-- Logo icon image, you can use font-icon also --><b>
-                                  <!--This is dark logo icon--><img src="../plugins/images/admin-logo.png" alt="home" class="dark-logo"><!--This is light logo icon--><img src="../plugins/images/admin-logo-dark.png" alt="home" class="light-logo">
-                               </b>
-                                  <!-- Logo text image you can use text also --><span class="hidden-xs">
-                                  <!--This is dark logo text--><img src="../plugins/images/admin-text.png" alt="home" class="dark-logo"><!--This is light logo text--><img src="../plugins/images/admin-text-dark.png" alt="home" class="light-logo">
-                               </span> </a>
-                          </div>
-      </div>
+      <header class="navbar-header">
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Fixed navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      </header>
       <div class="wrapper">
                   <!-- Sidebar Holder -->
                   <nav id="sidebar">
