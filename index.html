@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,106 +14,109 @@
     <link rel="stylesheet" href="themify/themify-icons.css">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
-      <header class="navbar-header">
-          <nav class="navbar navbar-expand-md navbar-dark fixed-top theme-color">
-        <a class="navbar-brand" href="#">Fixed navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+</head>
+
+<body>
+    <header class="navbar-header">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top theme-color">
+            <a class="navbar-brand" href="#">Fixed navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-      </header>
-      <div class="wrapper">
-                  <!-- Sidebar Holder -->
-                  <nav id="sidebar" class="nav-sidebar">
-                      <!-- <div class="sidebar-header">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar" class="nav-sidebar">
+            <!-- <div class="sidebar-header">
                           <p>Bootstrap Sidebar</p>
                       </div> -->
 
-                      <ul class="list-unstyled components" id="accordion">
-                          <p>Dummy Heading</p>
-                          <li class="active">
-                              <a href="#homeSubmenu" class="accordion-toggle" data-toggle="collapse" aria-expanded="false">Home</a>
-                              <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#accordion">
-                                  <li><a href="#">Home 1</a></li>
-                                  <li><a href="#">Home 2</a></li>
-                                  <li><a href="#">Home 3</a></li>
-                              </ul>
-                          </li>
-                          <li>
-                              <a href="#">About</a>
-                              <a href="#pageSubmenu" class="accordion-toggle" data-toggle="collapse" aria-expanded="false">Pages</a>
-                              <ul class="collapse list-unstyled" id="pageSubmenu" data-parent="#accordion">
-                                  <li><a href="#">Page 1</a></li>
-                                  <li><a href="#">Page 2</a></li>
-                                  <li><a href="#">Page 3</a></li>
-                              </ul>
-                          </li>
-                          <li>
-                              <a href="#">Portfolio</a>
-                          </li>
-                          <li>
-                              <a href="#">Contact</a>
-                          </li>
-                      </ul>
-                  </nav>
+            <ul class="list-unstyled components" id="accordion">
+                <p>Dummy Heading</p>
+                <li class="active">
+                    <a href="#homeSubmenu" class="accordion-toggle" data-toggle="collapse" aria-expanded="false">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#accordion">
+                        <li><a href="#">Home 1</a></li>
+                        <li><a href="#">Home 2</a></li>
+                        <li><a href="#">Home 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                    <a href="#pageSubmenu" class="accordion-toggle" data-toggle="collapse" aria-expanded="false">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu" data-parent="#accordion">
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
-                  <!-- Page Content Holder -->
-                  <div id="content">
+        <!-- Page Content Holder -->
+        <div id="content">
 
-                      <nav class="navbar navbar-default">
-                          <div class="container-fluid">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
 
-                              <div class="navbar-header">
-                                  <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
                                       <i class="glyphicon glyphicon-align-left"></i>
                                       <span>Toggle Sidebar</span>
                                   </button>
-                              </div>
+                    </div>
 
-                              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                  <ul class="nav navbar-nav navbar-right">
-                                      <li><a href="#">Page</a></li>
-                                      <li><a href="#">Page</a></li>
-                                      <li><a href="#">Page</a></li>
-                                      <li><a href="#">Page</a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </nav>
-      				</div>
-      				</div>
-                  </div>
-              </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Page</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-         <script type="text/javascript">
-             $(document).ready(function () {
-                 $('#sidebarCollapse').on('click', function () {
-                     $('#sidebar').toggleClass('active');
-                 });
-             });
-         </script>
-  </body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+    </script>
+</body>
+
 </html>
