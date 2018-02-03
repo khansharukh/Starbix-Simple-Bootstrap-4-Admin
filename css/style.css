@@ -1,9 +1,9 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Segoe UI";
   background: #fafafa; }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Segoe UI";
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.7em;
@@ -23,6 +23,12 @@ a, a:hover, a:focus {
   margin: 40px 0; }
 
 /* ---------------------------------------------------
+    NAVBAR STYLE
+----------------------------------------------------- */
+.bg-dark {
+  background: #2cabe3 !important; }
+
+/* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
 .wrapper {
@@ -34,8 +40,8 @@ a, a:hover, a:focus {
   align-items: stretch; }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  min-width: 240px;
+  max-width: 240px;
   background: #FFF;
   -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
   box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
@@ -56,8 +62,7 @@ a, a:hover, a:focus {
   color: #FFF; }
 
 #sidebar ul.components {
-  padding: 20px 0;
-  border-bottom: 1px solid #47748b; }
+  padding: 20px 0; }
 
 #sidebar ul p {
   color: #fff;
@@ -66,15 +71,15 @@ a, a:hover, a:focus {
 #sidebar ul li a {
   padding: 10px;
   font-size: 1.1em;
-  display: block; }
+  display: block;
+  color: #54667a; }
 
 #sidebar ul li a:hover {
-  color: #7386D5;
-  background: #fff; }
+  background: rgba(0, 0, 0, 0.07); }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
   color: #fff;
-  background: #6d7fcc; }
+  background: #2cabe3; }
 
 a[data-toggle="collapse"] {
   position: relative; }
@@ -92,8 +97,7 @@ a[aria-expanded="true"]::before {
 
 ul ul a {
   font-size: 0.9em !important;
-  padding-left: 30px !important;
-  background: #6d7fcc; }
+  padding-left: 30px !important; }
 
 ul.CTAs {
   padding: 20px; }
