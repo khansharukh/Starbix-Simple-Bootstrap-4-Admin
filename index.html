@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header class="navbar-header">
+    <header class="main-navbar-header">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top theme-color">
             <a class="navbar-brand" href="#">Fixed navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +25,10 @@
         </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <span class="ti-menu"></span>
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -50,7 +52,9 @@
                       </div> -->
 
             <ul class="list-unstyled components" id="accordion">
-                <p>Dummy Heading</p>
+                <li class="user-wrapper">
+
+                </li>
                 <li class="active">
                     <a href="#homeSubmenu" class="accordion-toggle" data-toggle="collapse" aria-expanded="false">Home</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#accordion">
