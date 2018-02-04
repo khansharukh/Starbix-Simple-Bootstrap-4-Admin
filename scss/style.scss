@@ -49,14 +49,29 @@ body {
 /* ---------------------------------------------------
     NAVBAR STYLE
 ----------------------------------------------------- */
-
 .theme-color {
     background: $theme-color!important;
+}
+
+.navbar {
+    padding: 0;
+
+    .navbar-brand {
+        padding: 0.5rem 1rem;
+    }
+
+    .menu-toggle-button a {
+        padding: 1.1rem 1rem;
+        color: #FFF;
+    }
+
+    .menu-toggle-button a:hover {
+        background: rgba(0,0,0,.1);
+    }
 }
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
-
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -137,7 +152,6 @@ body {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-
 #content {
     padding: 20px;
     min-height: 100vh;

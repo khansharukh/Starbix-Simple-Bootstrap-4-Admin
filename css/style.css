@@ -35,6 +35,16 @@ body {
 .theme-color {
   background: #2cabe3 !important; }
 
+.navbar {
+  padding: 0; }
+  .navbar .navbar-brand {
+    padding: 0.5rem 1rem; }
+  .navbar .menu-toggle-button a {
+    padding: 1.1rem 1rem;
+    color: #FFF; }
+  .navbar .menu-toggle-button a:hover {
+    background: rgba(0, 0, 0, 0.1); }
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
