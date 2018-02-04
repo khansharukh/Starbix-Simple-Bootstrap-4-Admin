@@ -5,6 +5,7 @@ $font-color: #54667a;
 $icon-font: 'themify';
 $font-size: 14px;
 $body-margin-top: 57px;
+$body-margin-left: 240px;
 
 body {
     font-family: $fontface;
@@ -14,9 +15,18 @@ body {
     .wrapper {
         margin-top: $body-margin-top;
     }
+
+    #content {
+        margin-left: $body-margin-left;
+    }
 }
 
 .nav-sidebar {
+    position: fixed;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+
     a,
     a:focus,
     a:hover {
@@ -39,12 +49,14 @@ body {
 /* ---------------------------------------------------
     NAVBAR STYLE
 ----------------------------------------------------- */
+
 .theme-color {
     background: $theme-color!important;
 }
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
+
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -125,6 +137,7 @@ body {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
+
 #content {
     padding: 20px;
     min-height: 100vh;

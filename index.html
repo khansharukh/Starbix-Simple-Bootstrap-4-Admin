@@ -129,11 +129,15 @@
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="plugins/jquery.slimscroll.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#sidebarCollapse').on('click', function() {
                 $('#sidebar').toggleClass('active');
             });
+        });
+        $(function() {
+            $('.nav-sidebar').slimScroll();
         });
 
     </script>
