@@ -44,6 +44,7 @@ body {
 /* ---------------------------------------------------
     NAVBAR STYLE
 ----------------------------------------------------- */
+
 .theme-color {
     background: $theme-color!important;
 }
@@ -67,6 +68,7 @@ body {
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
+
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -147,6 +149,7 @@ body {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
+
 #content {
     padding: 20px;
     min-height: 100vh;
@@ -162,9 +165,5 @@ body {
 
     #sidebar.active {
         margin-left: 0;
-    }
-
-    #sidebarCollapse span {
-        display: none;
     }
 }
