@@ -15,10 +15,6 @@ body {
     .wrapper {
         margin-top: $body-margin-top;
     }
-
-    #content {
-        margin-left: $body-margin-left;
-    }
 }
 
 .nav-sidebar {
@@ -166,5 +162,10 @@ body {
 
     .navbar-brand {
         margin-right: 5rem;
+    }
+
+    .nav-sidebar {
+        position: absolute;
+        z-index: 1;
     }
 }

@@ -4,8 +4,6 @@ body {
   font-size: 14px; }
   body .wrapper {
     margin-top: 57px; }
-  body #content {
-    margin-left: 240px; }
 
 .nav-sidebar a,
 .nav-sidebar a:focus,
@@ -123,4 +121,7 @@ body {
   #sidebar.active {
     margin-left: 0; }
   .navbar-brand {
-    margin-right: 5rem; } }
+    margin-right: 5rem; }
+  .nav-sidebar {
+    position: absolute;
+    z-index: 1; } }
