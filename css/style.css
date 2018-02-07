@@ -121,4 +121,6 @@ body {
   #sidebar {
     margin-left: -250px; }
   #sidebar.active {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .navbar-brand {
+    margin-right: 5rem; } }
