@@ -22,11 +22,6 @@ body {
 }
 
 .nav-sidebar {
-    position: fixed;
-    min-height: 100vh;
-    max-height: 100vh;
-    overflow-y: scroll;
-
     a,
     a:focus,
     a:hover {
@@ -49,7 +44,6 @@ body {
 /* ---------------------------------------------------
     NAVBAR STYLE
 ----------------------------------------------------- */
-
 .theme-color {
     background: $theme-color!important;
 }
@@ -73,7 +67,6 @@ body {
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
-
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -154,7 +147,6 @@ body {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-
 #content {
     padding: 20px;
     min-height: 100vh;
