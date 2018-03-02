@@ -13,6 +13,9 @@
     <!-- Themify icons -->
     <link rel="stylesheet" href="themify/themify-icons.css">
 
+    <!-- Waves css -->
+    <link rel="stylesheet" href="plugins/css/waves.min.css">
+
     <title>Hello, world!</title>
 </head>
 
@@ -20,7 +23,7 @@
     <header class="main-navbar-header">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top theme-color">
             <div class="menu-toggle-button">
-                <a class="nav-link waves-effect waves-button" href="#" id="sidebarCollapse">
+                <a class="nav-link wave-button" href="#" id="sidebarCollapse">
                     <span class="ti-menu"></span>
                 </a>
             </div>
@@ -39,7 +42,7 @@
 
                 </li>
                 <li class="active">
-                    <a href="#homeSubmenu" class="accordion-toggle" data-toggle="collapse" aria-expanded="false">Home</a>
+                    <a href="#homeSubmenu" class="accordion-toggle wave-button" data-toggle="collapse" aria-expanded="false">Home</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#accordion">
                         <li><a href="#">Home 1</a></li>
                         <li><a href="#">Home 2</a></li>
@@ -87,8 +90,8 @@
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                         <h4 class="page-title">Dashboard 1</h4> </div>
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
-                        <button class="right-side-toggle waves-effect waves-light btn-info btn-circle pull-right m-l-20"><i class="ti-settings text-white"></i></button>
-                        <a href="#" target="_blank" class="btn btn-danger pull-right m-l-20 hidden-xs hidden-sm waves-effect waves-light">Buy Admin Now</a>
+                        <button class="right-side-toggle btn-info btn-circle pull-right m-l-20"><i class="ti-settings text-white"></i></button>
+                        <a href="#" target="_blank" class="btn btn-danger pull-right m-l-20 hidden-xs hidden-sm">Buy Admin Now</a>
                         <ol class="breadcrumb">
                             <li><a href="#">Dashboard</a></li>
                             <li class="active">Dashboard 1</li>
@@ -900,6 +903,9 @@
             $('#sidebarCollapse').on('click', function() {
                 $('#sidebar').toggleClass('active');
             });
+            Waves.init();
+            Waves.attach('.wave-button', ['waves-button']);
+            Waves.attach('.wave-button-float', ['waves-button', 'waves-float']);
         });
         $(function() {
             $('.slimescroll-id').slimScroll({
