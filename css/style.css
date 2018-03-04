@@ -6,6 +6,9 @@ body {
   body .wrapper {
     margin-top: 57px; }
 
+.img-circle {
+  border-radius: 100%; }
+
 .nav-sidebar a,
 .nav-sidebar a:focus,
 .nav-sidebar a:hover {
@@ -78,7 +81,7 @@ body {
     display: block;
     color: #54667a;
     padding: 15px 35px 15px 20px; }
-  #sidebar a[aria-expanded="true"],
+  #sidebar li a[aria-expanded="true"],
   #sidebar ul li a:hover {
     background: rgba(0, 0, 0, 0.07); }
   #sidebar ul li.active > a {
@@ -87,15 +90,15 @@ body {
     font-weight: 500; }
   #sidebar a[data-toggle="collapse"] {
     position: relative; }
-  #sidebar a[aria-expanded="false"]::before,
-  #sidebar a[aria-expanded="true"]::before {
+  #sidebar li a[aria-expanded="false"]::before,
+  #sidebar li a[aria-expanded="true"]::before {
     content: '\e649';
     display: block;
     position: absolute;
     right: 20px;
     top: 20px;
     font-size: 0.6em; }
-  #sidebar a[aria-expanded="true"]::before {
+  #sidebar li a[aria-expanded="true"]::before {
     content: '\e64b'; }
   #sidebar ul ul a {
     font-size: 0.9em !important;
@@ -414,3 +417,34 @@ body {
 
 .p-r-100 {
   padding-right: 100px !important; }
+
+ul {
+  margin-top: 0;
+  margin-bottom: 10px; }
+
+.user-profile {
+  padding: 0 0 15px;
+  position: relative;
+  text-align: center; }
+  .user-profile .user-pro-body {
+    display: block; }
+    .user-profile .user-pro-body img {
+      width: 50px;
+      display: block;
+      margin: 0 auto 10px; }
+    .user-profile .user-pro-body .u-dropdown {
+      color: #97999f; }
+    .user-profile .user-pro-body .dropdown-menu {
+      right: 0;
+      width: 80%;
+      left: 0;
+      margin: 0 auto;
+      -webkit-transform: none !important;
+      -ms-transform: none !important;
+      transform: none !important;
+      top: 85px !important; }
+      .user-profile .user-pro-body .dropdown-menu li a {
+        padding-left: 5px !important;
+        padding-right: 10px !important;
+        padding-top: 10px !important;
+        padding: 10px !important; }
