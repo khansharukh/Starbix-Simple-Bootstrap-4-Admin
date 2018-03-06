@@ -28,17 +28,39 @@
                 </a>
             </div>
             <a class="navbar-brand" href="#">Fixed navbar</a>
+
+            <ul class="navbar-nav ml-auto navbar-top-links">
+                <li class="dropdown">
+                    <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"> <img src="https://placehold.it/200x200" alt="user-img" width="36" class="img-circle">
+                        <b class="d-none d-sm-inline-block">First name</b></a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li>
+                            <div class="dw-user-box">
+                                <div class="u-img"><img src="https://placehold.it/200x200" alt="user"></div>
+                                <div class="u-text">
+                                    <h4>First Last name</h4>
+                                    <p class="text-muted">user@mail.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                            </div>
+                        </li>
+                        <div class="dropdown-divider"></div>
+                        <li><a href="#"><i class="ti-user"></i> My Profile</a></li>
+                        <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
+                        <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a href="#"><i class="ti-settings"></i> Account Setting</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
         </nav>
     </header>
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar" class="nav-sidebar">
-            <!-- <div class="sidebar-header">
-                          <p>Bootstrap Sidebar</p>
-                      </div> -->
-
             <ul class="list-unstyled components slimescroll-id" id="accordion">
-
                 <div class="user-profile">
                     <div class="dropdown user-pro-body">
                         <div><img src="https://placehold.it/300x300" alt="user-img" class="img-circle"></div>
@@ -47,9 +69,9 @@
                             <li><a href="#"><i class="ti-user"></i> My Profile</a></li>
                             <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
                             <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
-                            <li role="separator" class="divider"></li>
+                            <div class="dropdown-divider"></div>
                             <li><a href="#"><i class="ti-settings"></i> Account Setting</a></li>
-                            <li role="separator" class="divider"></li>
+                            <div class="dropdown-divider"></div>
                             <li><a href="login.html"><i class="fa fa-power-off"></i> Logout</a></li>
                         </ul>
                     </div>

@@ -51,9 +51,6 @@ body {
 
 .navbar {
     padding: 0;
-    .navbar-brand {
-        padding: 0.5rem 1rem;
-    }
     .menu-toggle-button a {
         padding: 1.1rem 1rem;
         color: #FFF;
@@ -158,9 +155,6 @@ body {
     #sidebar.active {
         margin-left: 0;
     }
-    .navbar-brand {
-        margin-right: 5rem;
-    }
     .nav-sidebar {
         position: absolute;
         z-index: 1;
@@ -213,6 +207,74 @@ ul {
                     padding-top: 10px!important;
                     padding: 10px!important;
                 }
+            }
+        }
+    }
+}
+
+.navbar-top-links {
+    .profile-pic {
+        color: #FFF;
+        text-decoration: none;
+        padding: 0 12px;
+    }
+    .dropdown-menu {
+        li {
+            display: block;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                display: block;
+                padding: 9px 20px;
+                clear: both;
+                font-weight: 400;
+                line-height: 1.42857143;
+                color: #333;
+                white-space: nowrap;
+                &:hover {
+                    background: #f7fafc;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .dropdown-user {
+        right: 0;
+        left: auto;
+        position: absolute;
+        width: 280px;
+        margin-top: 10px;
+    }
+    .dw-user-box {
+        padding: 15px;
+        .u-img {
+            width: 70px;
+            display: inline-block;
+            vertical-align: top;
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+        .u-text {
+            display: inline-block;
+            padding-left: 10px;
+            h4 {
+                margin: 0;
+            }
+            p {
+                margin-bottom: 3px;
+            }
+            .btn-danger {
+                background: #f33155;
+                opacity: .8;
+                border-radius: 60px;
+                border: 1px solid #f33155;
+                padding: 5px 10px;
+                font-size: 12px;
+                line-height: 1.5;
+                color: #FFF;
             }
         }
     }

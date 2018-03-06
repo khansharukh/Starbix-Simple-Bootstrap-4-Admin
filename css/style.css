@@ -35,8 +35,6 @@ body {
 
 .navbar {
   padding: 0; }
-  .navbar .navbar-brand {
-    padding: 0.5rem 1rem; }
   .navbar .menu-toggle-button a {
     padding: 1.1rem 1rem;
     color: #FFF; }
@@ -124,8 +122,6 @@ body {
     margin-left: -250px; }
   #sidebar.active {
     margin-left: 0; }
-  .navbar-brand {
-    margin-right: 5rem; }
   .nav-sidebar {
     position: absolute;
     z-index: 1; } }
@@ -448,3 +444,57 @@ ul {
         padding-right: 10px !important;
         padding-top: 10px !important;
         padding: 10px !important; }
+
+.navbar-top-links .profile-pic {
+  color: #FFF;
+  text-decoration: none;
+  padding: 0 12px; }
+
+.navbar-top-links .dropdown-menu li {
+  display: block; }
+  .navbar-top-links .dropdown-menu li:last-child {
+    margin-right: 0; }
+  .navbar-top-links .dropdown-menu li a {
+    display: block;
+    padding: 9px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap; }
+    .navbar-top-links .dropdown-menu li a:hover {
+      background: #f7fafc;
+      text-decoration: none; }
+
+.navbar-top-links .dropdown-user {
+  right: 0;
+  left: auto;
+  position: absolute;
+  width: 280px;
+  margin-top: 10px; }
+
+.navbar-top-links .dw-user-box {
+  padding: 15px; }
+  .navbar-top-links .dw-user-box .u-img {
+    width: 70px;
+    display: inline-block;
+    vertical-align: top; }
+    .navbar-top-links .dw-user-box .u-img img {
+      width: 100%;
+      border-radius: 5px; }
+  .navbar-top-links .dw-user-box .u-text {
+    display: inline-block;
+    padding-left: 10px; }
+    .navbar-top-links .dw-user-box .u-text h4 {
+      margin: 0; }
+    .navbar-top-links .dw-user-box .u-text p {
+      margin-bottom: 3px; }
+    .navbar-top-links .dw-user-box .u-text .btn-danger {
+      background: #f33155;
+      opacity: .8;
+      border-radius: 60px;
+      border: 1px solid #f33155;
+      padding: 5px 10px;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #FFF; }
