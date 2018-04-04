@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Themify icons -->
+    <link rel="stylesheet" href="themify/themify-icons.css">
+
+    <!-- Waves css -->
+    <link rel="stylesheet" href="plugins/css/waves.min.css">
+
+    <title>Bootstrap-4 Simple-sidebar :: Login</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="container">
+            <div class="card card-login mx-auto mt-5">
+                <div class="card-header">Admin Login - Sign in to manage</div>
+                <div class="card-body">
+                    <form action="" method="post">
+                        <input type="hidden" name="_token" value="wTSAQGmoYTaIt5Eu3hvpUcPdeFN9yYgztDY4hmrN">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" name="email" class="form-control" placeholder="Enter email" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" name="password" class="form-control" placeholder="Enter password" />
+                        </div>
+
+                        <input type="submit" class="btn btn-primary btn-block" name="submit" value="Login">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="plugins/js/jquery.slimscroll.min.js"></script>
+    <script src="plugins/js/waves.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar').toggleClass('active');
+            });
+            Waves.init();
+            Waves.attach('.wave-effect', ['waves-button']);
+            Waves.attach('.wave-effect-float', ['waves-button', 'waves-float']);
+        });
+        $(function() {
+            $('.slimescroll-id').slimScroll({
+                height: '100vh'
+            });
+        });
+    </script>
+</body>
+
+</html>
