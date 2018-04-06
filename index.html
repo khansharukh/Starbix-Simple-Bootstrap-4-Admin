@@ -121,9 +121,39 @@
             </ul>
         </nav>
 
-        <!-- Page Content Holder -->
-        <div id="content">
-            <div class="container-fluid">
+        <div class="container content-area">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel">
+                        <div class="card-header m-b-15">
+                            <h4>About content</h4>
+                        </div>
+                        <div class="table-responsive">
+                            @if($abouts)
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>Sr no</th>
+                                    <th>Title</th>
+                                    <th>Image</th>
+                                    <th>Action</th>
+                                </tr>
+                                @foreach($abouts AS $about)
+                                <tr>
+                                    <td>{{ $about->id }}</td>
+                                    <td>{{ $about->title }}</td>
+                                    <td>{{ $about->file }}</td>
+                                    <td>
+                                        <a href="#" class="text-decoration-none"><i class="ti-pencil-alt"></i></a> &nbsp;
+                                        <a href="javascript:void(0)" id="delete-id" class="text-decoration-none"><i class="ti-trash"></i></a> &nbsp;
+                                        <a href="#" class="text-decoration-none"><i class="ti-eye"></i></a>
+                                    </td>
+                                </tr>
+                                @endforeach
+                            </table>
+                            @endif
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -511,3 +511,6 @@ ul {
 
 .top-inner-navbar {
   min-height: 57px; }
+
+.text-decoration-none:hover {
+  text-decoration: none; }
