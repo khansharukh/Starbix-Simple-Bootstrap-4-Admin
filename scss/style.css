@@ -679,4 +679,16 @@ ul {
 .text-decoration-none:hover {
   text-decoration: none;
 }
+
+.tree-level-2 ul {
+  margin-left: 5px;
+}
+
+.tree-level-3 ul {
+  margin-left: 10px;
+}
+
+.inside-level li a {
+  padding: 10px !important;
+}
 /*# sourceMappingURL=style.css.map */

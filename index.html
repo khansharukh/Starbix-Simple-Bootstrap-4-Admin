@@ -145,7 +145,7 @@
               <i class="ti-home m-r-10"></i> Home
             </a>
             <ul
-              class="collapse list-unstyled"
+              class="collapse list-unstyled inside-level"
               id="homeSubmenu"
               data-parent="#accordion"
             >
@@ -156,56 +156,56 @@
           </li>
           <li>
             <a href="#" class="wave-effect">About</a>
+          </li>
+          <li>
             <a
               href="#pageSubmenu"
               class="accordion-toggle wave-effect"
               data-toggle="collapse"
               aria-expanded="false"
-              >Pages</a
+              >Multilevel</a
             >
             <ul
-              class="collapse list-unstyled"
+              class="collapse list-unstyled inside-level"
               id="pageSubmenu"
               data-parent="#accordion"
               id="accordion2"
             >
-              <li><a href="#">Page 1</a></li>
-              <li><a href="#">Page 2</a></li>
-              <li><a href="#">Page 3</a></li>
-              <li>
+              <li><a href="#">Inside Level 1</a></li>
+              <li class="tree-level-1">
                 <a
                   href="#pageSubmenu2"
                   class="accordion-toggle wave-effect"
                   data-toggle="collapse"
                   aria-expanded="false"
-                  >More pages</a
+                  >Level 2</a
                 >
                 <ul
-                  class="collapse list-unstyled"
+                  class="collapse list-unstyled inside-level"
                   id="pageSubmenu2"
                   data-parent="#accordion2"
                 >
-                  <li><a href="#">Page 4</a></li>
-                  <li><a href="#">Page 5</a></li>
-                  <li><a href="#">Page 6</a></li>
-                </ul>
-              </li>
-              <li>
-                <a
-                  href="#pageSubmenu3"
-                  class="accordion-toggle wave-effect"
-                  data-toggle="collapse"
-                  aria-expanded="false"
-                  >Even more</a
-                >
-                <ul
-                  class="collapse list-unstyled"
-                  id="pageSubmenu3"
-                  data-parent="#accordion2"
-                >
-                  <li><a href="#">Page 7</a></li>
-                  <li><a href="#">Page 8</a></li>
-                  <li><a href="#">Page 9</a></li>
+                  <li><a href="#">Inside level 2</a></li>
+                  <li><a href="#">Inside level 2</a></li>
+
+                  <li class="tree-level-3">
+                    <a
+                      href="#pageSubmenu3"
+                      class="accordion-toggle wave-effect"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      >Level 3</a
+                    >
+                    <ul
+                      class="collapse list-unstyled inside-level"
+                      id="pageSubmenu3"
+                      data-parent="#accordion2"
+                    >
+                      <li><a href="#">Inside level 3</a></li>
+                      <li><a href="#">Inside level 3</a></li>
+                      <li><a href="#">Inside level 3</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
             </ul>

@@ -6,6 +6,8 @@ $icon-font: "themify";
 $font-size: 14px;
 $body-margin-top: 57px;
 $body-margin-left: 240px;
+$tree-level-two: 5px;
+$tree-level-three: $tree-level-two+$tree-level-two;
 body {
   font-family: $fontface;
   background: #edf1f5;
@@ -310,4 +312,14 @@ ul {
   &:hover {
     text-decoration: none;
   }
+}
+
+.tree-level-2 ul {
+  margin-left: $tree-level-two;
+}
+.tree-level-3 ul {
+  margin-left: $tree-level-three;
+}
+.inside-level li a {
+  padding: 10px!important;
 }
