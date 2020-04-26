@@ -1,168 +1,424 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="scss/style.css" />
 
     <!-- Themify icons -->
-    <link rel="stylesheet" href="themify/themify-icons.css">
+    <link rel="stylesheet" href="themify/themify-icons.css" />
 
     <!-- Waves css -->
-    <link rel="stylesheet" href="plugins/css/waves.min.css">
+    <link rel="stylesheet" href="plugins/css/waves.min.css" />
 
     <title>Hello, world!</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="main-navbar-header">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top theme-color">
-            <div class="menu-toggle-button">
-                <a class="nav-link wave-effect" href="#" id="sidebarCollapse">
-                    <span class="ti-menu"></span>
-                </a>
-            </div>
-            <a class="navbar-brand" href="#">Fixed navbar</a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top theme-color">
+        <div class="menu-toggle-button">
+          <a class="nav-link wave-effect" href="#" id="sidebarCollapse">
+            <span class="ti-menu"></span>
+          </a>
+        </div>
+        <a class="navbar-brand" href="#">Fixed navbar</a>
 
-            <ul class="navbar-nav ml-auto navbar-top-links">
-                <li class="dropdown">
-                    <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"> <img src="https://placehold.it/200x200" alt="user-img" width="36" class="img-circle">
-                        <b class="d-none d-sm-inline-block">First name</b></a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li>
-                            <div class="dw-user-box">
-                                <div class="u-img"><img src="https://placehold.it/200x200" alt="user"></div>
-                                <div class="u-text">
-                                    <h4>First Last name</h4>
-                                    <p class="text-muted">user@mail.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
-                            </div>
-                        </li>
-                        <div class="dropdown-divider"></div>
-                        <li><a href="#"><i class="ti-user"></i> My Profile</a></li>
-                        <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
-                        <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
-                        <div class="dropdown-divider"></div>
-                        <li><a href="#"><i class="ti-settings"></i> Account Setting</a></li>
-                        <div class="dropdown-divider"></div>
-                        <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-                <!-- /.dropdown -->
+        <ul class="navbar-nav ml-auto navbar-top-links">
+          <li class="dropdown">
+            <a
+              class="dropdown-toggle profile-pic"
+              data-toggle="dropdown"
+              href="#"
+              aria-expanded="false"
+            >
+              <img
+                src="https://placehold.it/200x200"
+                alt="user-img"
+                width="36"
+                class="img-circle"
+              />
+              <b class="d-none d-sm-inline-block">First name</b></a
+            >
+            <ul class="dropdown-menu dropdown-user">
+              <li>
+                <div class="dw-user-box">
+                  <div class="u-img">
+                    <img src="https://placehold.it/200x200" alt="user" />
+                  </div>
+                  <div class="u-text">
+                    <h4>First Last name</h4>
+                    <p class="text-muted">user@mail.com</p>
+                    <a
+                      href="profile.html"
+                      class="btn btn-rounded btn-danger btn-sm"
+                      >View Profile</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <div class="dropdown-divider"></div>
+              <li>
+                <a href="#"><i class="ti-user"></i> My Profile</a>
+              </li>
+              <li>
+                <a href="#"><i class="ti-wallet"></i> My Balance</a>
+              </li>
+              <li>
+                <a href="#"><i class="ti-email"></i> Inbox</a>
+              </li>
+              <div class="dropdown-divider"></div>
+              <li>
+                <a href="#"><i class="ti-settings"></i> Account Setting</a>
+              </li>
+              <div class="dropdown-divider"></div>
+              <li>
+                <a href="#"><i class="fa fa-power-off"></i> Logout</a>
+              </li>
             </ul>
-        </nav>
+            <!-- /.dropdown-user -->
+          </li>
+          <!-- /.dropdown -->
+        </ul>
+      </nav>
     </header>
     <div class="wrapper">
-        <!-- Sidebar Holder -->
-        <nav id="sidebar" class="nav-sidebar">
-            <ul class="list-unstyled components slimescroll-id" id="accordion">
-                <div class="user-profile">
-                    <div class="dropdown user-pro-body">
-                        <div><img src="https://placehold.it/300x300" alt="user-img" class="img-circle"></div>
-                        <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Full Name </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#"><i class="ti-user"></i> My Profile</a></li>
-                            <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
-                            <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
-                            <div class="dropdown-divider"></div>
-                            <li><a href="#"><i class="ti-settings"></i> Account Setting</a></li>
-                            <div class="dropdown-divider"></div>
-                            <li><a href="login.html"><i class="fa fa-power-off"></i> Logout</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <li class="active">
-                    <a href="#homeSubmenu" class="accordion-toggle wave-effect" data-toggle="collapse" aria-expanded="false">
-                        <i class="ti-home m-r-10"></i> Home
-                    </a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#accordion">
-                        <li><a href="#">Home 1</a></li>
-                        <li><a href="#">Home 2</a></li>
-                        <li><a href="#">Home 3</a></li>
-                    </ul>
+      <!-- Sidebar Holder -->
+      <nav id="sidebar" class="nav-sidebar">
+        <ul class="list-unstyled components slimescroll-id" id="accordion">
+          <div class="user-profile">
+            <div class="dropdown user-pro-body">
+              <div>
+                <img
+                  src="https://placehold.it/300x300"
+                  alt="user-img"
+                  class="img-circle"
+                />
+              </div>
+              <a
+                href="#"
+                class="dropdown-toggle u-dropdown"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Full Name
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><i class="ti-user"></i> My Profile</a>
                 </li>
                 <li>
-                    <a href="#" class="wave-effect">About</a>
-                    <a href="#pageSubmenu" class="accordion-toggle wave-effect" data-toggle="collapse" aria-expanded="false">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu" data-parent="#accordion" id="accordion2">
-                        <li><a href="#">Page 1</a></li>
-                        <li><a href="#">Page 2</a></li>
-                        <li><a href="#">Page 3</a></li>
-                        <li>
-                            <a href="#pageSubmenu2" class="accordion-toggle wave-effect" data-toggle="collapse" aria-expanded="false">More pages</a>
-                            <ul class="collapse list-unstyled" id="pageSubmenu2" data-parent="#accordion2">
-                                <li><a href="#">Page 4</a></li>
-                                <li><a href="#">Page 5</a></li>
-                                <li><a href="#">Page 6</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#pageSubmenu3" class="accordion-toggle wave-effect" data-toggle="collapse" aria-expanded="false">Even more</a>
-                            <ul class="collapse list-unstyled" id="pageSubmenu3" data-parent="#accordion2">
-                                <li><a href="#">Page 7</a></li>
-                                <li><a href="#">Page 8</a></li>
-                                <li><a href="#">Page 9</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                  <a href="#"><i class="ti-wallet"></i> My Balance</a>
                 </li>
                 <li>
-                    <a href="#" class=" wave-effect">Portfolio</a>
+                  <a href="#"><i class="ti-email"></i> Inbox</a>
                 </li>
+                <div class="dropdown-divider"></div>
                 <li>
-                    <a href="#" class=" wave-effect">Contact</a>
+                  <a href="#"><i class="ti-settings"></i> Account Setting</a>
                 </li>
+                <div class="dropdown-divider"></div>
                 <li>
-                    <a href="login.html" class=" wave-effect">
-                        <i class="ti-user m-r-10"></i>Login Page
-                    </a>
+                  <a href="login.html"
+                    ><i class="fa fa-power-off"></i> Logout</a
+                  >
                 </li>
-            </ul>
-        </nav>
-
-        <div class="container content-area">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel">
-                        <div class="card-header m-b-15">
-                            <h4>About content</h4>
-                        </div>
-                        <div class="table-responsive">
-                            @if($abouts)
-                            <table class="table table-bordered">
-                                <tr>
-                                    <th>Sr no</th>
-                                    <th>Title</th>
-                                    <th>Image</th>
-                                    <th>Action</th>
-                                </tr>
-                                @foreach($abouts AS $about)
-                                <tr>
-                                    <td>{{ $about->id }}</td>
-                                    <td>{{ $about->title }}</td>
-                                    <td>{{ $about->file }}</td>
-                                    <td>
-                                        <a href="#" class="text-decoration-none"><i class="ti-pencil-alt"></i></a> &nbsp;
-                                        <a href="javascript:void(0)" id="delete-id" class="text-decoration-none"><i class="ti-trash"></i></a> &nbsp;
-                                        <a href="#" class="text-decoration-none"><i class="ti-eye"></i></a>
-                                    </td>
-                                </tr>
-                                @endforeach
-                            </table>
-                            @endif
-                        </div>
-                    </div>
-                </div>
+              </ul>
             </div>
+          </div>
+
+          <li class="active">
+            <a
+              href="#homeSubmenu"
+              class="accordion-toggle wave-effect"
+              data-toggle="collapse"
+              aria-expanded="false"
+            >
+              <i class="ti-home m-r-10"></i> Home
+            </a>
+            <ul
+              class="collapse list-unstyled"
+              id="homeSubmenu"
+              data-parent="#accordion"
+            >
+              <li><a href="#">Home 1</a></li>
+              <li><a href="#">Home 2</a></li>
+              <li><a href="#">Home 3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="wave-effect">About</a>
+            <a
+              href="#pageSubmenu"
+              class="accordion-toggle wave-effect"
+              data-toggle="collapse"
+              aria-expanded="false"
+              >Pages</a
+            >
+            <ul
+              class="collapse list-unstyled"
+              id="pageSubmenu"
+              data-parent="#accordion"
+              id="accordion2"
+            >
+              <li><a href="#">Page 1</a></li>
+              <li><a href="#">Page 2</a></li>
+              <li><a href="#">Page 3</a></li>
+              <li>
+                <a
+                  href="#pageSubmenu2"
+                  class="accordion-toggle wave-effect"
+                  data-toggle="collapse"
+                  aria-expanded="false"
+                  >More pages</a
+                >
+                <ul
+                  class="collapse list-unstyled"
+                  id="pageSubmenu2"
+                  data-parent="#accordion2"
+                >
+                  <li><a href="#">Page 4</a></li>
+                  <li><a href="#">Page 5</a></li>
+                  <li><a href="#">Page 6</a></li>
+                </ul>
+              </li>
+              <li>
+                <a
+                  href="#pageSubmenu3"
+                  class="accordion-toggle wave-effect"
+                  data-toggle="collapse"
+                  aria-expanded="false"
+                  >Even more</a
+                >
+                <ul
+                  class="collapse list-unstyled"
+                  id="pageSubmenu3"
+                  data-parent="#accordion2"
+                >
+                  <li><a href="#">Page 7</a></li>
+                  <li><a href="#">Page 8</a></li>
+                  <li><a href="#">Page 9</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="wave-effect">Portfolio</a>
+          </li>
+          <li>
+            <a href="#" class="wave-effect">Contact</a>
+          </li>
+          <li>
+            <a href="login.html" class="wave-effect">
+              <i class="ti-user m-r-10"></i>Login Page
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="container content-area">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="panel">
+              <div class="m-b-15">
+                <h6>About</h6>
+                <hr />
+              </div>
+              <div class="form-responsive">
+                <form>
+                  <div class="form-group">
+                    <label for="aboutTitle">Title</label>
+                    <input type="text" class="form-control" id="aboutTitle" />
+                    <small id="emailHelp" class="form-text text-muted"
+                      >A slug will be created automatically with this
+                      title.</small
+                    >
+                  </div>
+                  <div class="form-group">
+                    <label for="aboutDesc">Description</label>
+                    <textarea class="form-control" id="aboutDesc"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-check-label" for="aboutFile"
+                      >Choose image</label
+                    >
+                    <input type="file" id="aboutFile" />
+                  </div>
+                  <div class="form-group form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Active</label
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-primary">
+                    Add About
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="panel">
+              <div class="m-b-15">
+                <h6>About Listing</h6>
+                <hr />
+              </div>
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <tr>
+                    <th>Sr no</th>
+                    <th>Title</th>
+                    <th>Image</th>
+                    <th>Action</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>About 1</td>
+                    <td>
+                      <img
+                        src="https://source.unsplash.com/user/erondu/90x60"
+                        class="img-thumbnail"
+                      />
+                    </td>
+                    <td>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-pencil-alt"></i
+                      ></a>
+                      &nbsp;
+                      <a
+                        href="javascript:void(0)"
+                        id="delete-id"
+                        class="text-decoration-none"
+                        ><i class="ti-trash"></i
+                      ></a>
+                      &nbsp;
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-eye"></i
+                      ></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>About 2</td>
+                    <td>
+                      <img
+                        src="https://source.unsplash.com/user/jeff/90x60"
+                        class="img-thumbnail"
+                      />
+                    </td>
+                    <td>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-pencil-alt"></i
+                      ></a>
+                      &nbsp;
+                      <a
+                        href="javascript:void(0)"
+                        id="delete-id"
+                        class="text-decoration-none"
+                        ><i class="ti-trash"></i
+                      ></a>
+                      &nbsp;
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-eye"></i
+                      ></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>About 3</td>
+                    <td>
+                      <img
+                        src="https://source.unsplash.com/user/john/90x60"
+                        class="img-thumbnail"
+                      />
+                    </td>
+                    <td>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-pencil-alt"></i
+                      ></a>
+                      &nbsp;
+                      <a
+                        href="javascript:void(0)"
+                        id="delete-id"
+                        class="text-decoration-none"
+                        ><i class="ti-trash"></i
+                      ></a>
+                      &nbsp;
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-eye"></i
+                      ></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>About 4</td>
+                    <td>
+                      <img
+                        src="https://source.unsplash.com/user/alex/90x60"
+                        class="img-thumbnail"
+                      />
+                    </td>
+                    <td>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-pencil-alt"></i
+                      ></a>
+                      &nbsp;
+                      <a
+                        href="javascript:void(0)"
+                        id="delete-id"
+                        class="text-decoration-none"
+                        ><i class="ti-trash"></i
+                      ></a>
+                      &nbsp;
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-eye"></i
+                      ></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>About 5</td>
+                    <td>
+                      <img
+                        src="https://source.unsplash.com/user/erondu/90x60"
+                        class="img-thumbnail"
+                      />
+                    </td>
+                    <td>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-pencil-alt"></i
+                      ></a>
+                      &nbsp;
+                      <a
+                        href="javascript:void(0)"
+                        id="delete-id"
+                        class="text-decoration-none"
+                        ><i class="ti-trash"></i
+                      ></a>
+                      &nbsp;
+                      <a href="#" class="text-decoration-none"
+                        ><i class="ti-eye"></i
+                      ></a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
+      </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -172,20 +428,19 @@
     <script src="plugins/js/jquery.slimscroll.min.js"></script>
     <script src="plugins/js/waves.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
-            $('#sidebarCollapse').on('click', function() {
-                $('#sidebar').toggleClass('active');
-            });
-            Waves.init();
-            Waves.attach('.wave-effect', ['waves-button']);
-            Waves.attach('.wave-effect-float', ['waves-button', 'waves-float']);
+      $(document).ready(function () {
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar").toggleClass("active");
         });
-        $(function() {
-            $('.slimescroll-id').slimScroll({
-                height: '100vh'
-            });
+        Waves.init();
+        Waves.attach(".wave-effect", ["waves-button"]);
+        Waves.attach(".wave-effect-float", ["waves-button", "waves-float"]);
+      });
+      $(function () {
+        $(".slimescroll-id").slimScroll({
+          height: "100vh",
         });
+      });
     </script>
-</body>
-
+  </body>
 </html>

@@ -1,3 +1,9 @@
 {
-    "liveSassCompile.settings.autoprefix": []
+    "liveSassCompile.settings.autoprefix": [],
+    "prettier.htmlWhitespaceSensitivity": "strict",
+    "prettier.printWidth": 120,
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 4,
+    "prettier.semi": false,
+    "prettier.singleQuote": true
 }
