@@ -28,3 +28,7 @@ You can extend this template by adding any javascript/jquery plugins and make mo
 
 ## :star2: Contribution :fire:
 Contributors are welcome, fork this repository and start playing. :star::stars:
+
+Please view the to pipeline in project section, try to contribute.
+
+https://github.com/khansharukh/Starbix-Simple-Bootstrap-4-Admin/projects
