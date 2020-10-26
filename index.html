@@ -88,7 +88,7 @@
     <div class="wrapper">
       <!-- Sidebar Holder -->
       <nav id="sidebar" class="nav-sidebar">
-        <ul class="list-unstyled components slimescroll-id" id="accordion">
+        <ul class="list-unstyled components" id="accordion">
           <li>
             <div class="form-group p-r-20 p-l-20">
             <input type="text" class="form-control" placeholder="Search..." />
@@ -384,7 +384,6 @@
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="plugins/js/jquery.slimscroll.min.js"></script>
     <script src="plugins/js/waves.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
@@ -394,11 +393,6 @@
         Waves.init();
         Waves.attach(".wave-effect", ["waves-button"]);
         Waves.attach(".wave-effect-float", ["waves-button", "waves-float"]);
-      });
-      $(function () {
-        $(".slimescroll-id").slimScroll({
-          height: "100vh",
-        });
       });
     </script>
   </body>
