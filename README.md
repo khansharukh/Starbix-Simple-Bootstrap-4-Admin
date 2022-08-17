@@ -1,15 +1,15 @@
 # StarBix template - Boostrap 4
 Powerful yet simple responsive admin template based on bootstrap 4 css framework with minimal wave/ripple effect
 
-## Demo - StarBix - bootstrap-4-simple-sidebar-admin
-https://khansharukh.github.io/bootstrap-4-simple-sidebar-admin/
+## :wave: Demo - StarBix - bootstrap-4-simple-sidebar-admin
+https://khansharukh.github.io/Starbix-Simple-Bootstrap-4-Admin/
 
-https://khansharukh.github.io/bootstrap-4-simple-sidebar-admin/login.html
+https://khansharukh.github.io/Starbix-Simple-Bootstrap-4-Admin/login.html
 
-# Responsive template
+## :water_polo: Responsive template
 This template is responsive and lightweight with ripple (wave) effect 
 
-# Features
+## :monkey_face: Features
 <ul>
 <li>Responsive</li>
 <li>Lightweight</li>
@@ -23,5 +23,12 @@ This template is responsive and lightweight with ripple (wave) effect
 <li>No bloat</li>
 </ul>
 
-# Extend template
+## :shamrock: Extend template
 You can extend this template by adding any javascript/jquery plugins and make more out of it.
+
+## :star2: Contribution :fire:
+Contributors are welcome, fork this repository and start playing. :star::stars:
+
+Please view the to pipeline in project section, try to contribute.
+
+https://github.com/khansharukh/Starbix-Simple-Bootstrap-4-Admin/projects

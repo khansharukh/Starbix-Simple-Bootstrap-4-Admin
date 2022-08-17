@@ -35,6 +35,9 @@ body .wrapper {
 /* ---------------------------------------------------
     NAVBAR STYLE
 ----------------------------------------------------- */
+.nav-sidebar {
+  height: 100vh;
+}
 .theme-color {
   background: #2cabe3 !important;
 }
